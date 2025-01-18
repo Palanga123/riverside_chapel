@@ -36,9 +36,9 @@ const Home = () => {
 
         <>
             
-            <div className="h-[500px] w-full" id="hero">
+            <div className="h-[600px] w-full" id="hero">
                 <div className='w-full h-full' style={{ backgroundColor: 'rgba(0,0,0,0.3)' }}>
-                    <div className='text-white text-center py-44'>
+                    <div className='text-white text-center py-48'>
                         <p className='text-5xl uppercase font-extrabold'>Riverside Chapel</p>
                         <br />
                         <p className='py-2 font-semibold'>We preach Christ and Him Crucified <br /> 1 Corinthians 1:23</p>
