@@ -9,7 +9,7 @@ const Footer = () => {
 
     return (
         <>
-            <footer className="w-full bg-gray-50 pt-4 bottom-0 text-gray-700">
+            <footer className="text-sm w-full bg-gray-50 pt-4 bottom-0 text-gray-700">
                 
                 <div className='w-full md:w-11/12 m-auto md:grid grid-cols-3 gap-2 lex flex-col md:flex-row justify-between py-16'>
                     <div className="w-11/12 mx-auto py-10">
@@ -17,14 +17,14 @@ const Footer = () => {
                         <p className='text-sm md:pr-8'>Our mission is to preach Christ and him crucified.</p>
 
                     </div>
-                    <div className="w-11/12  mx-auto">
+                    <div className="w-11/12 mx-auto">
                         <p className='py-4 font-semibold'>Reach out on our socials</p>
                         <div className="flex flex-col">
-                            <div className='p-3 bg-green-10 rounded-md my-2 text-gray-700 w-full md:w-80 flex items-center border border-red-600 cusor-pointer' onClick={() => handleClick("https://facebook.com/profile.php?id=100089700964105&mibextid=ZbWKwl")}>
+                            <div className='p-3 bg-green-10 rounded-md my-2 text-gray-700 w-full md:w-80 flex items-center border border-gray-600 cusor-pointer' onClick={() => handleClick("https://facebook.com/profile.php?id=100089700964105&mibextid=ZbWKwl")}>
                                 <FaFacebook className="mr-3 text-[20px]"/>
                                 <p className='font-semibold'>Facebook</p>
                             </div>
-                            <div className='p-3 bg-green-10 rounded-md my-2 text-gray-700 w-full md:w-80 flex items-center border border-red-600 cusor-pointer'>
+                            <div className='p-3 bg-green-10 rounded-md my-2 text-gray-700 w-full md:w-80 flex items-center border border-gray-600 cusor-pointer'>
                                 <FaInstagram  className="mr-3 text-[20px]"/>
                                 <p className='font-semibold'>Instagram</p>
                             </div>
@@ -57,7 +57,7 @@ const Footer = () => {
 
                             <div className='flex items-center'>
                                 <button className='p-4 text-red-800'><FaLocationDot /></button>
-                                <p>Jambo Drive, Riverside, Kitwe</p>
+                                <p>Kaminda Drive, Riverside, Kitwe</p>
                             </div>
                         </div>
                     </div>
