@@ -43,11 +43,11 @@ const Ministries = () => {
 
     const ministry_list = ministries.map((ministry) => (
         <>
-            <div key={ministry.id} className='w-full h-full rounded-md overflow-hidden shadow'>
-                <div className='w-full h-40' id="hero">
+            <div key={ministry.id} className='w-full h-full rounded-md overflow-hidden'>
+                <div className='w-full h-40 rounded-md' id="hero">
 
                 </div>
-                <div className='bg-gray-200 p-4'>
+                <div className='py-4'>
                     <p className='font-semibold'>{ministry.name}</p>
                     <p className='text-sm'>{ministry.desc}</p>
                     {/* <button className='text-sm bg-red-700 text-white py-2 w-full rounded-md mt-4'>Read More</button> */}

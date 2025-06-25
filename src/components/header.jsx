@@ -46,9 +46,9 @@ const Header = () => {
 
     return (
         <>
-            <header id="text" className="fixed w-full shadow-sm bg-red-700 text-white">
-                <div className="w-full bg-gray-700 text-gray-200">
-                    <div className="w-11/12 md:w-4/5 m-auto bg-transparent py-2 flex flex-col md:flex-row items-center justify-between">
+            <header id="text" className="w-full shadow-sm bg-red-700 text-white">
+                <div className="text-sm w-full bg-gray-700 text-gray-200">
+                    <div className="w-11/12 md:w-4/5 m-auto bg-transparent py-1 flex flex-col md:flex-row items-center justify-between">
                         <div className="flex">
                             <p className="flex flex-col md:flex-row items-center text-left">
                                 <span className="px-3 flex items-center "><FaMobileAlt className="mr-2 text-red-700" /> +260 974323234</span>
@@ -94,9 +94,9 @@ const Header = () => {
                 }
 
             </header>
-            <div>
+            {/* <div>
 
-            </div>
+            </div> */}
         </>
     )
 }

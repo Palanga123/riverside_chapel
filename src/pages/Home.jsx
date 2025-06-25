@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../components/main.css';
 
 const Home = () => {
@@ -52,10 +53,12 @@ const Home = () => {
                 <div className='my-10 flex flex-col md:flex-row md:gap-x-14 space-y-20 md:space-y-0'>
                     <div className='w-full md:w-1/2 py-4'>
                         <p className='text-lg text-red-700 font-extrabold uppercase text-center'>Welcome to Riverside Chapel</p>
-                        <p className='py-8 text-lg'>
+                        <p className='py-8 text-lg text-justify'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque cupiditate quas modi repellat voluptas sint velit soluta natus consectetur iste vero doloremque repellendus quasi enim autem id sapiente, eos excepturi ipsam voluptatem ab, quia delectus asperiores? Maiores ipsa exercitationem adipisci in, hic alias sit rem blanditiis earum ipsum voluptatibus.
                         </p>
-                        <button className='py-3 md:py-4 w-full bg-red-700 text-white font-semibold uppercase'>More about riverside chapel</button>
+                        <Link to="/about#top">
+                            <button className='py-3 md:py-4 w-full bg-red-700 text-white font-semibold uppercase'>More about riverside chapel</button>
+                        </Link>
                     </div>
                     <div className="w-full md:w-1/2 mt-4 md:m-0">
                         {services_list}

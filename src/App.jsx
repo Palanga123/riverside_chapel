@@ -14,7 +14,7 @@ function App() {
             <BrowserRouter>
 
                 <Header />    
-                <div className='h-32 md:h-28 w-full'></div>
+                {/* <div className='h-32 md:h-28 w-full'></div> */}
                 <Routes>
                     <Route path="/" element={<Home />}></Route>
                 </Routes>
